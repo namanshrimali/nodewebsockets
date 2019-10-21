@@ -1,0 +1,19 @@
+{
+  "name": "kanban-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/socket.io": "^2.1.4",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.7.5",
+    "proflo-sprint-lib": "git+ssh://git@gitlab-ibm.stackroute.in:nashrim1/proflo-sprint-lib.git#dev",
+    "socket.io": "^2.3.0"
+  }
+}

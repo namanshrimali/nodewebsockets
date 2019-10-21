@@ -1,0 +1,9 @@
+<div class="example-list">
+    <div cdkDropList id={{column.id}} [cdkDropListData]="column.tasks" (cdkDropListDropped)="drop($event)"
+        [cdkDropListConnectedTo]="listOfColumnId">
+        <h1>{{column.columnName}}</h1>
+        <div *ngFor="let task of column.tasks" cdkDrag class="example-box">
+            {{task.taskName}}
+        </div>
+    </div>
+</div>
